@@ -1,4 +1,4 @@
-
+{
  "Version": "1.0.2",
  "ReleaseNotes": "",
  "Servers": [
@@ -13,18 +13,18 @@
    "SSLPort": "80",
    "ProxyIP": "",
    "ProxyPort": "",
-   "ServerUser": "gatesccnfree",
-   "ServerPass": "gatesccnfree",
+   "ServerUser": "",
+   "ServerPass": "",
    "Payload": "GET ws:\/\/ssl.pedro.tk HTTP\/1.0[crlf]Host: Zoomcares.zoom.us[crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "chile1.elmandarinvpn.com",
    "Slowchave": "",
    "Nameserver": "",
    "Slowdns": "",
    "isSSL": "false",
-   "isPayloadSSL": "true",
+   "isPayloadSSL": "false",
    "isSlow": "false",
    "isInject": "false",
-   "isDirect": "false"
+   "isDirect": "true"
   },
   {
    "UrlCheckuser": "",
@@ -37,10 +37,10 @@
    "SSLPort": "443",
    "ProxyIP": "",
    "ProxyPort": "",
-   "ServerUser": "gatesccnfree",
-   "ServerPass": "gatesccnfree",
+   "ServerUser": "",
+   "ServerPass": "",
    "Payload": "GET \/ HTTP\/1.1[crlf]Host: ssl.pedro.tk[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-   "SNI": "chile1.elmandarinvpn.com",
+   "SNI": "ssl.pedro.tk ",
    "Slowchave": "",
    "Nameserver": "",
    "Slowdns": "",
@@ -61,8 +61,8 @@
    "SSLPort": "53",
    "ProxyIP": "",
    "ProxyPort": "",
-   "ServerUser": "gatesccnfree",
-   "ServerPass": "gatesccnfree",
+   "ServerUser": "",
+   "ServerPass": "",
    "Payload": "",
    "SNI": "",
    "Slowchave": "a1c1b30c885b2e062a520ed055d8b0e621fa3deca5773f8f86dcfc0ca34f966c",
